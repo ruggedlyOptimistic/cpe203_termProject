@@ -1,0 +1,46 @@
+Summary of Changes:
+
+	***Note: Additional JAR files included.  Program will not run without them!
+
+	Entities Added:
+		1. Portal
+		2. Tank
+		3. DiseasedOcto
+		
+	Additional Classes:
+		1. Jukebox (because having background music makes it that much better...)
+		
+	A. How to trigger event...
+		i. Left-click the mouse anywhere in the viewport
+		ii. Try to avoid moving the PApplet window-> DISREGARD
+		iii.  Used "mouseX" and "mouseY" rather than "MouseInfo"...move the window around all you want.  She works just fine...
+	
+	B. What should happen when the program is run?
+		i. Song "Under the Sea" should play
+		ii. Program should run per usual
+	
+	C. What should happen when the event is triggered?
+		i. Song should change to "Shoot to Thrill" (AC/DC)
+		ii. A Portal should spawn where the mouse was clicked, surrounded by a 9x9 grid of "outer space" background images.
+			If the mouse was clicked over a tile occupied by an entity, the Portal should spawn nearby.  The Portal should begin animating immediately.
+		iii. A Tank should spawn to the right of the Portal and begin animating and hunting Crabs.
+		iv. If any of the entities specified below are within 5 tiles of the Portal, they should be almost immediately affected (see section D).
+		v. Each subsequent mouse click should spawn a new Portal and Tank
+		
+	D. What should the affected entities do?
+		i. If the entity is an Obstacle,  Fish, Crab, or seaGrass, it should get "sucked into outer space" via a "Quake" animation.
+		ii. If the entity is an Octo type, it should either be transformed by the Portal or remain a "Diseased Octo".  Diseased Octos hunt for Atlantis, but
+			unlike a Full Octo, Diseased Octos destroy Atlantis upon contact, causing a new seaGrass to spawn.
+	
+	E. What should the new entities do?
+		i. Portals spawn tanks and either destroy or transform most of the original entities. Portals should animate immediately.
+		ii. Tanks animate in two ways:
+			a. if you look closely, you can see the tracks of the tank "turning"
+			b. more obviously, you can observe the big gun shooting
+		iii. Tanks also hunt down and destroy crabs.  Tanks are unaffected by Portals
+		iv. Diseased Octos turn pink and purple and display normal Octo animation behavior.
+			Diseased Octos hunt for Atlantis to destroy it.
+		
+	F. Who worked on this project?
+		i. Jason Davis
+		

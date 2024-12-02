@@ -1,0 +1,15 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Jason\\OneDrive - Cal Poly\\CPE 203\\Project5\\Basic (Media) Player JAR Files\\basicplayer3.0.jar",
+        "c:\\Users\\Jason\\OneDrive - Cal Poly\\CPE 203\\Project5\\Basic (Media) Player JAR Files\\commons-logging-api.jar",
+        "c:\\Users\\Jason\\OneDrive - Cal Poly\\CPE 203\\Project5\\Basic (Media) Player JAR Files\\jl1.0.jar",
+        "c:\\Users\\Jason\\OneDrive - Cal Poly\\CPE 203\\Project5\\Basic (Media) Player JAR Files\\jogg-0.0.7.jar",
+        "c:\\Users\\Jason\\OneDrive - Cal Poly\\CPE 203\\Project5\\Basic (Media) Player JAR Files\\jorbis-0.0.15.jar",
+        "c:\\Users\\Jason\\OneDrive - Cal Poly\\CPE 203\\Project5\\Basic (Media) Player JAR Files\\jspeex0.9.7.jar",
+        "c:\\Users\\Jason\\OneDrive - Cal Poly\\CPE 203\\Project5\\Basic (Media) Player JAR Files\\mp3spi1.9.4.jar",
+        "c:\\Users\\Jason\\OneDrive - Cal Poly\\CPE 203\\Project5\\Basic (Media) Player JAR Files\\tritonus_share.jar",
+        "c:\\Users\\Jason\\OneDrive - Cal Poly\\CPE 203\\Project5\\Basic (Media) Player JAR Files\\vorbisspi1.0.2.jar",
+        "c:\\Users\\Jason\\OneDrive - Cal Poly\\CPE 203\\JAR Files\\Processing\\core.jar"
+    ]
+}
